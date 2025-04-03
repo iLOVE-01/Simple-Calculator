@@ -50,3 +50,27 @@ button:hover {
     background-color: #45a049;
     transform: scale(1.1);
 }
+
+input:focus {
+    border-color: #4CAF50;
+    background-color: #fff;
+    color: #333;
+}
+input::placeholder {
+    color: #999;
+}
+
+@media screen and (max-width: 600px) {
+    button {
+        width: 50px;
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+
+    input {
+        width: 100%;
+        font-size: 14px;
+    }
+}
